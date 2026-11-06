@@ -1,0 +1,31 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:04.000
+[Música de introducción]
+
+00:00:04.000 --> 00:00:09.000
+Bienvenidas y bienvenidos a la unidad 3: reproductores y medios adaptativos.
+
+00:00:09.000 --> 00:00:15.000
+En esta lección veremos cómo integrar vídeo e imágenes de forma accesible y eficiente.
+
+00:00:15.000 --> 00:00:22.000
+Un reproductor HTML5 permite controlar la reproducción sin depender de complementos externos.
+
+00:00:22.000 --> 00:00:30.000
+La pista de subtítulos muestra el diálogo y los sonidos relevantes para quienes no pueden oír el audio.
+
+00:00:30.000 --> 00:00:37.000
+Para reducir el consumo de datos, el vídeo carga solo sus metadatos antes de que el usuario lo reproduzca.
+
+00:00:37.000 --> 00:00:45.000
+En las imágenes adaptativas, el navegador elige el tamaño adecuado para la pantalla y la conexión.
+
+00:00:45.000 --> 00:00:52.000
+Formatos como AVIF y WebP pueden reducir el peso de la imagen manteniendo una buena calidad.
+
+00:00:52.000 --> 00:00:57.000
+El texto alternativo describe la información visual a quienes no pueden verla.
+
+00:00:57.000 --> 00:01:00.000
+[Fin de la lección]

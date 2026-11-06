@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aula Virtual - Lección Multimedia</title>
+</head>
+<body>
+
+  <main>
+    <h1>Unidad 3: Reproductores y Medios Adaptativos</h1>
+
+    <section class="video-section">
+      <h2 id="video-heading">Videoclase Interactiva</h2>
+
+      <video controls preload="metadata" width="640" aria-labelledby="video-heading">
+        <source src="clase.mp4" type="video/mp4">
+        <track kind="captions" src="clase-es.vtt" srclang="es" label="Español" default>
+        Tu navegador no soporta vídeo HTML5.
+      </video>
+    </section>
+
+    <section class="image-section">
+      <h2>Esquema de Arquitectura Web</h2>
+      <figure>
+        <picture>
+          <source
+            type="image/avif"
+            srcset="esquema-480.avif 480w, esquema-960.avif 960w, esquema-1600.avif 1600w"
+            sizes="(max-width: 640px) 100vw, 640px">
+          <source
+            type="image/webp"
+            srcset="esquema-480.webp 480w, esquema-960.webp 960w, esquema-1600.webp 1600w"
+            sizes="(max-width: 640px) 100vw, 640px">
+          <img
+            src="esquema-desktop.jpg"
+            srcset="esquema-480.jpg 480w, esquema-960.jpg 960w, esquema-1600.jpg 1600w"
+            sizes="(max-width: 640px) 100vw, 640px"
+            alt="Esquema de la arquitectura web de la lección"
+            loading="lazy">
+        </picture>
+        <figcaption>Esquema de arquitectura web explicado en la videoclase.</figcaption>
+      </figure>
+    </section>
+  </main>
+
+</body>
+</html>
